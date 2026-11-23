@@ -1,1 +1,99 @@
 
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jussur Management | Login</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <main class="login-container">
+
+        <!-- Lado esquerdo -->
+        <section class="brand-section">
+
+            <div class="brand-content">
+
+                <img
+                    src="assets/logo-jussur.png"
+                    alt="Logo da Associação Jussur"
+                    class="logo"
+                >
+
+                <h1>Jussur <span>Management</span></h1>
+
+                <div class="gold-line"></div>
+
+                <p>Gestão e organização da Associação Jussur</p>
+
+            </div>
+
+            <footer>
+                © 2026 Associação Jussur. Todos os direitos reservados.
+            </footer>
+
+        </section>
+
+        <!-- Lado direito -->
+        <section class="form-section">
+
+            <div class="login-card">
+
+                <div class="login-icon">J</div>
+
+                <h2>Bem-vindo</h2>
+
+                <p class="subtitle">
+                    Inicie sessão para aceder à área administrativa.
+                </p>
+
+                <form id="loginForm">
+
+                    <div class="form-group">
+                        <label for="username">Nome de utilizador</label>
+
+                        <input
+                            type="text"
+                            id="username"
+                            placeholder="Introduza o seu utilizador"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Palavra-passe</label>
+
+                        <input
+                            type="password"
+                            id="password"
+                            placeholder="Introduza a sua palavra-passe"
+                            required
+                        >
+                    </div>
+
+                    <button type="submit">
+                        Iniciar sessão <span>→</span>
+                    </button>
+
+                    <p id="message"></p>
+
+                </form>
+
+                <div class="security-message">
+                    🔒 Acesso reservado aos utilizadores autorizados.
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
